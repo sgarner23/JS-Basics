@@ -6,6 +6,9 @@
 */
 
 //CODE HERE
+function sum(num1, num2){
+  return num1 + num2;
+}
 
 
 //////////////////PROBLEM 2////////////////////
@@ -17,6 +20,13 @@
 */
 
 //CODE HERE
+function greaterThanFive (number){
+  if (number > 5){
+    return true;
+  } else {
+    return false;
+  }
+}
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +37,13 @@
 */
 
 //CODE HERE
+function findZWords (word){
+  if (word.charAt(0) === "Z"){
+    return "the name begins with Z";
+  } else {
+    return "the name does not begin with Z";
+  }
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -36,3 +53,9 @@
 */
 
 //CODE HERE
+
+function iLove(name, love){
+  return `${name} loves ${love}`;
+}
+
+

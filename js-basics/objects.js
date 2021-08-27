@@ -15,9 +15,14 @@
 */
 
 //CODE HERE
-
-
-
+const me = {
+  firstName: "Stephen",
+  state: "Utah",
+  age: 29,
+  greeter: function() {
+  return `Hello! My name is ${this.firstName} and I live in ${state}`;
+ }
+}
 
 
 //////////////////PROBLEM 2////////////////////
@@ -45,3 +50,18 @@
 */
 
 //CODE HERE
+function carFactory(make, model, year){
+  const car = {
+    make: make,
+    model: model,
+    year: year
+  }
+
+  if(year > 2018){
+    car.isNew = true;
+  } else {
+    car.isNew = false;
+  }
+  return car
+}
+
